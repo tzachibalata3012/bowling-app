@@ -1,0 +1,58 @@
+.Container {
+  display: flex;
+  align-items: center;
+}
+
+table.Scorecard {
+  margin: 0 auto;
+  width:80%;
+  font-size:12px;
+  border:1px solid;
+  text-align: center;
+  table-layout: fixed;
+  margin-bottom: 40px;
+}
+
+table.Scorecard th, tr, td {
+  padding: 0;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+table.Scorecard th {
+  border-bottom:1px solid;
+  color: #131212;
+  background-color:rgb(148, 189, 241);
+  height:30px;
+}
+
+table.Scorecard th:not(:last-child) {
+  border-right:1px solid;
+}
+
+table.Scorecard td {
+  height:30px;
+  background: #e6d67c;
+}
+
+table.Scorecard tr td:not(:last-child) {
+  border-right:1px solid;
+}
+
+table.Scorecard tr:nth-child(2) td:nth-child(even) {
+  border-bottom:1px solid;
+}
+
+table.Scorecard tr:nth-child(2) td:last-child {
+  border-bottom:1px solid;
+}
+
+table.Scorecard #r21 {
+  border-bottom: 1px solid;
+}
+
+table.Scorecard #total-score {
+  background-color: #3a73dd;
+  border-bottom: none;
+  color: #b7dcee;
+}

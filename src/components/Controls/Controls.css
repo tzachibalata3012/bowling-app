@@ -1,0 +1,51 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Restart {
+  width: 100px;
+  border-radius: 15px;
+  height: 35px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: rgb(78, 155, 179);
+  border-color: rgb(39, 78, 206);
+  background-color: transparent;
+}
+
+.Restart:hover {
+  background-color: rgb(97, 169, 218);
+  color: rgb(233, 218, 83);
+  opacity: 0.9;
+}
+
+button {
+  font-family: 'Bitter', cursive;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: #d4a115;
+  color: white;
+  outline: 10px;
+  font-size: 15px;
+  border-radius: 50%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:disabled,
+button[disabled]{
+  background-color: #d2d2e482;
+  color: grey;
+  visibility: hidden;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+}
