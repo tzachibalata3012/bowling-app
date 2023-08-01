@@ -3,7 +3,7 @@ Simple react + redux + typescript application.
 This application simulate a singel-player, single-round bowling game.
 Between rolls you can enjoy some highlights phrases from the best bowling movie ever!!
 
-Enjoy Rolling!
+Enjoy Rolling! :) :) 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
